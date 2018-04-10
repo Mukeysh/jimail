@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Visitng Card digital card app.
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+</ion-content>
+
+<ion-content class="home" padding>
+  <ion-card>
+    <ion-card-content>
+      Click below and take a picture of visiting card.
+
+      <button ion-button full (click)="takePicture()">Take a Picture</button>
+      <!-- <button ion-button full (click)="sendEmail()">Send mail</button> -->
+      
+      <p *ngIf="image">Picture</p>
+      <img [src]="image" *ngIf="image" />
+      <!-- {{attachImage}} -->
+    </ion-card-content>
+  </ion-card>
+</ion-content>
