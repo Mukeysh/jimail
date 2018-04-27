@@ -1,4 +1,20 @@
 {
+  "cordova-plugin-camera": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-camera@4.0.3"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-email-composer": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-email-composer"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
   "cordova-plugin-whitelist": {
     "source": {
       "type": "registry",
@@ -26,7 +42,7 @@
   "cordova-plugin-ionic-webview": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-ionic-webview@^1.1.16"
+      "id": "cordova-plugin-ionic-webview@^1.2.0"
     },
     "is_top_level": true,
     "variables": {}
@@ -39,20 +55,22 @@
     "is_top_level": true,
     "variables": {}
   },
-  "cordova-plugin-camera": {
+  "cordova-plugin-file": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-camera@4.0.2"
+      "id": "cordova-plugin-file@6.0.1"
     },
     "is_top_level": true,
     "variables": {}
   },
-  "cordova-plugin-email-composer": {
+  "cordova-plugin-geolocation": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-email-composer"
+      "id": "cordova-plugin-geolocation@4.0.1"
     },
     "is_top_level": true,
-    "variables": {}
+    "variables": {
+      "GEOLOCATION_USAGE_DESCRIPTION": "To locate you"
+    }
   }
 }
